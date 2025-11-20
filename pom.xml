@@ -28,12 +28,18 @@
 	</scm>
 	<properties>
 		<java.version>25</java.version>
+        <logbook.version>3.12.3</logbook.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>logbook-spring-webflux</artifactId>
+            <version>${logbook.version}</version>
+        </dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
